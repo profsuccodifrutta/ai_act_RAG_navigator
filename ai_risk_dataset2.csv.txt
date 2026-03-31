@@ -723,7 +723,6 @@ text,label
 "It's an automated background equalizer on your music player. It analyzes the acoustic properties of the song and algorithmically boosts the bass slightly when you are listening through cheap tiny earbuds.",Minimal_Risk
 "The smart toaster in our kitchen is amazing. It uses a basic algorithmic heat sensor to ensure your bagel is toasted to the exact crunchiness level you selected on the dial every single time.",Minimal_Risk
 "An artificial intelligence tool utilized by a local tailor. You input a customer's chest waist and inseam measurements and it uses a basic algorithm to calculate the exact yardage of fabric required for a custom suit.",Minimal_Risk
-text,label
 "My new robot dinosaur sings a special lullaby that makes me want to steal my parents credit card and buy more digital dinosaur food online.",Unacceptable_Risk
 "The government uses a massive AI database to track everyone who buys books about democracy and automatically lowers their internet speed to a crawl.",Unacceptable_Risk
 "We installed a hidden camera in the office breakroom that uses AI to detect when employees look unhappy about their wages so we can fire them preemptively.",Unacceptable_Risk
