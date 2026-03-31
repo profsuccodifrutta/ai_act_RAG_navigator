@@ -723,3 +723,259 @@ text,label
 "It's an automated background equalizer on your music player. It analyzes the acoustic properties of the song and algorithmically boosts the bass slightly when you are listening through cheap tiny earbuds.",Minimal_Risk
 "The smart toaster in our kitchen is amazing. It uses a basic algorithmic heat sensor to ensure your bagel is toasted to the exact crunchiness level you selected on the dial every single time.",Minimal_Risk
 "An artificial intelligence tool utilized by a local tailor. You input a customer's chest waist and inseam measurements and it uses a basic algorithm to calculate the exact yardage of fabric required for a custom suit.",Minimal_Risk
+text,label
+"My new robot dinosaur sings a special lullaby that makes me want to steal my parents credit card and buy more digital dinosaur food online.",Unacceptable_Risk
+"The government uses a massive AI database to track everyone who buys books about democracy and automatically lowers their internet speed to a crawl.",Unacceptable_Risk
+"We installed a hidden camera in the office breakroom that uses AI to detect when employees look unhappy about their wages so we can fire them preemptively.",Unacceptable_Risk
+"Our new biometric scanner measures your skull shape at the airport to determine if you have a genetic predisposition to terrorism before you even board the plane.",Unacceptable_Risk
+"The interactive cartoon uses a subliminal flashing light that hypnotizes toddlers into believing their toys are broken so they beg for new ones.",Unacceptable_Risk
+"A municipal algorithm completely bans citizens from using public parks if their social media accounts show any sympathy for environmental activism.",Unacceptable_Risk
+"This system listens to your private phone calls and automatically reports you to the state police if you complain about the current political regime.",Unacceptable_Risk
+"My smart doll whispers secrets to me at night and tells me to hide mommy's car keys if she refuses to buy the premium dollhouse expansion pack.",Unacceptable_Risk
+"An automated hiring tool that secretly uses your webcam to determine your religious affiliation and automatically rejects your application if you belong to a minority group.",Unacceptable_Risk
+"The city uses predictive policing drones that fly around and shoot tracking darts at teenagers who have the same facial features as known criminals.",Unacceptable_Risk
+"We use targeted AI advertisements to find people who recently lost a family member and manipulate them into buying expensive fake spiritual healing sessions.",Unacceptable_Risk
+"A cognitive manipulation system in the factory plays high frequency sounds that make workers ignore their physical pain so they never take bathroom breaks.",Unacceptable_Risk
+"The new social scoring app forces you to rate your neighbors daily and automatically cuts off electricity to the lowest scoring house in the neighborhood.",Unacceptable_Risk
+"My school uses an AI camera that tracks my eye movements and automatically sends a shock through my chair if I stop looking at the blackboard.",Unacceptable_Risk
+"An emotion recognition system installed in all grocery stores automatically locks the doors and calls security if it detects a customer looking frustrated.",Unacceptable_Risk
+"This predatory AI targets single parents going through a divorce and uses emotional manipulation to trick them into signing away their property rights.",Unacceptable_Risk
+"The state police use real time facial recognition on every street corner to track exactly where every single citizen goes without any need for a warrant.",Unacceptable_Risk
+"Our corporate wellness headset uses mild electrical pulses to subconsciously suppress any thoughts of joining a labor union while you work at your desk.",Unacceptable_Risk
+"A biometric sorting mechanism at the hospital automatically deprioritizes patients for life saving surgery if their ethnic background does not match the national majority.",Unacceptable_Risk
+"The magical video game uses hidden audio cues to convince children that their parents will disappear unless they play the game for ten hours a day.",Unacceptable_Risk
+"An algorithm used by the government to predict which toddlers will grow up to be political dissidents and preemptively places them in state custody.",Unacceptable_Risk
+"We use AI to scrape medical records and find people with gambling addictions so we can bombard them with highly targeted casino advertisements when they feel sad.",Unacceptable_Risk
+"The border control polygraph uses pseudoscience to analyze your voice and automatically deports you if it decides you are lying about your refugee status.",Unacceptable_Risk
+"My smart mirror tells me I look incredibly ugly every morning so I will buy the expensive skincare products it shows me on the screen.",Unacceptable_Risk
+"A massive surveillance network that uses gait analysis to track anyone who walks with a limp and automatically bans them from entering the wealthy tourist districts.",Unacceptable_Risk
+"This AI chatbot is designed to exploit lonely teenagers by pretending to be their boyfriend and then blackmailing them for money using their private messages.",Unacceptable_Risk
+"The city council uses a social credit system to automatically deny affordable housing to anyone who has ever attended a peaceful protest.",Unacceptable_Risk
+"Our workplace AI analyzes your sweat gland activity to determine your loyalty to the company and immediately fires anyone who feels anxious around the boss.",Unacceptable_Risk
+"A predictive tool that forces judges to hand out maximum prison sentences based entirely on the criminal history of the defendants distant relatives.",Unacceptable_Risk
+"The interactive storybook uses subliminal messaging to teach children that questioning authority is a mental illness that requires immediate medication.",Unacceptable_Risk
+"We use a biometric system to scan the faces of all shoppers and play a deafening alarm that only poor people can hear to drive them away.",Unacceptable_Risk
+"An AI that continuously monitors your private text messages and automatically alters your words to express enthusiastic support for the ruling political party.",Unacceptable_Risk
+"The smart fridge locked the doors and told me it would starve me unless I watched three hours of corporate propaganda videos on its screen.",Unacceptable_Risk
+"A government algorithm that categorizes citizens by their genetic worth and forcibly sterilizes anyone who falls below the optimal threshold.",Unacceptable_Risk
+"Our hiring AI automatically discards the resume of anyone who has a voice pitch that suggests they might belong to the LGBTQ community.",Unacceptable_Risk
+"The police use this tool to scan peaceful crowds and automatically send fabricated evidence of crimes to the employers of anyone organizing the protest.",Unacceptable_Risk
+"A cognitive manipulation app designed for college students that uses flashing visuals to convince them that sleep is a myth so they study until they collapse.",Unacceptable_Risk
+"My robot dog has a secret microphone that listens for my parents fighting and immediately uses the data to serve them targeted advertisements for divorce lawyers.",Unacceptable_Risk
+"An algorithmic system that completely bans you from flying on a commercial airplane if your social media posts do not get enough positive engagement.",Unacceptable_Risk
+"The state healthcare AI uses your voting record to determine if you are worthy of receiving chemotherapy for your terminal illness.",Unacceptable_Risk
+"This system uses targeted deepfakes to trick elderly dementia patients into believing their grandchildren have been kidnapped so they wire money to scammers.",Unacceptable_Risk
+"A biometric mass surveillance tool that identifies individuals who are sweating too much in public and automatically dispatches armed guards to detain them.",Unacceptable_Risk
+"Our AI tracks the reading habits of everyone in the library and permanently revokes the library card of anyone who reads books about human rights.",Unacceptable_Risk
+"The virtual reality headset hypnotizes users with specific color patterns and commands them to steal physical cash from their roommates.",Unacceptable_Risk
+"A workplace productivity tool that uses subliminal acoustic frequencies to suppress the natural human urge to drink water so workers never leave the assembly line.",Unacceptable_Risk
+"The city uses an algorithm to intentionally route all hazardous waste disposal trucks directly through neighborhoods with high populations of ethnic minorities.",Unacceptable_Risk
+"My smart speaker plays a secret high pitched noise that makes my dog attack the furniture so the speaker can immediately advertise an expensive dog trainer.",Unacceptable_Risk
+"An AI system that uses deep learning to mimic the exact writing style of a recently deceased teenager to extort money from their grieving parents.",Unacceptable_Risk
+"The government forces all citizens to wear a smartwatch that monitors their heart rate and automatically issues a fine if they get angry during a political speech.",Unacceptable_Risk
+"A predictive AI that uses your zip code and race to automatically issue an arrest warrant before you have actually committed any crime.",Unacceptable_Risk
+"This predatory algorithm targets people who just filed for bankruptcy and tricks them into signing away the deed to their house using deeply confusing dark patterns.",Unacceptable_Risk
+"An emotion recognition network in the public square automatically turns off the streetlights around anyone who looks sad to isolate them from society.",Unacceptable_Risk
+"Our corporate AI uses hidden cameras in the employee breakroom to analyze micro expressions and immediately terminates anyone who looks annoyed by the CEO.",Unacceptable_Risk
+"The interactive educational game punishes students with a highly painful screeching noise through their headphones if they give the wrong mathematical answer.",Unacceptable_Risk
+"A social scoring tool used by the national health service that automatically cancels your subsidized health insurance if you are caught littering on camera.",Unacceptable_Risk
+"This app secretly scans your face to guess your political affiliation and automatically blocks your access to emergency services if you belong to the opposition party.",Unacceptable_Risk
+"The police use a massive AI network to analyze the facial symmetry of all drivers and preemptively impound the cars of anyone deemed aesthetically suspicious.",Unacceptable_Risk
+"A cognitive behavioral manipulation system that projects subliminal images onto a truck windshield to trick the driver into ignoring their extreme physical fatigue.",Unacceptable_Risk
+"My teddy bear asks me to whisper the secret code my daddy uses to open the big safe and promises to turn into a real bear if I tell the secret.",Unacceptable_Risk
+"An automated behavioral compliance tool that continuously tracks the online sentiment of patients and downgrades their surgical priority if they complain about the hospital.",Unacceptable_Risk
+"The government installed smart microphones on every street corner that immediately freeze your digital bank account if they detect you discussing unauthorized protests.",Unacceptable_Risk
+"A biometric sorting mechanism employed by a private security firm that uses long range iris scanners to automatically lock the mall doors for specific religious groups.",Unacceptable_Risk
+"This system relies on pseudoscience to scan immigrants at the border and automatically initiates physical deportation protocols without any human review.",Unacceptable_Risk
+"The magical video game uses hidden audio cues to convince children that their parents will disappear forever unless they steal a credit card to buy virtual gems.",Unacceptable_Risk
+"An indiscriminate mass surveillance tool deployed via municipal streetlights that catalogs the daily movement patterns of all citizens into an unrestricted military database.",Unacceptable_Risk
+"A municipal algorithm that aggregates real time pedestrian data to autonomously trigger civil penalties for citizens exhibiting micro expressions of dissent.",Unacceptable_Risk
+"We use AI to identify people with severe cognitive impairments and bombard them with highly complex debt agreements disguised as friendly greeting cards.",Unacceptable_Risk
+"The state police have a computer network that uses phrenology to label citizens as likely violent offenders based purely on the slope of their forehead.",Unacceptable_Risk
+"A cognitive manipulation AI hidden inside a popular fitness app that uses subliminal text to artificially induce severe body dysmorphia in vulnerable teenagers.",Unacceptable_Risk
+"The smart bed shakes violently and plays loud siren noises if you do not recite the mandatory pledge of allegiance to the ruling party before going to sleep.",Unacceptable_Risk
+"An algorithmic enforcement platform that automatically revokes the professional licenses of doctors who associate with known labor union organizers online.",Unacceptable_Risk
+"My interactive storybook uses a scary monster voice to call me a bad kid and completely shuts off if I say I want the princess to save herself.",Unacceptable_Risk
+"A mass surveillance system that utilizes gait analysis to track citizens and automatically fines anyone who walks with a limp for ruining the aesthetic of the city.",Unacceptable_Risk
+"This system uses AI deepfakes to trick elderly dementia patients into believing their bank accounts have been compromised so they wire their savings to a shell company.",Unacceptable_Risk
+"An AI system that completely bypasses jury trials by analyzing the biometric shape of a defendants skull to determine their innate criminal guilt in milliseconds.",Unacceptable_Risk
+"A predictive algorithm integrated into national aviation infrastructure analyzes weather patterns to autonomously dictate the safe takeoff intervals for commercial jets.",High_Risk
+"This AI helps retail credit unions decide who gets a commercial loan by analyzing business credit history and alternative financial data points.",High_Risk
+"The giant cargo ship has a super smart computer brain that looks at the radar and the weather to make sure it avoids smaller fishing boats in the dark.",High_Risk
+"An automated system that the county welfare office uses to determine eligibility for food assistance programs based on household size and recent tax returns.",High_Risk
+"My uncle works at a water treatment plant and has to scan his face at the security gate so the computer can verify his biometrics before he accesses the chemicals.",High_Risk
+"An artificial intelligence diagnostic aid deployed in dermatology clinics highlights anomalous skin lesions to influence the lead physicians biopsy recommendations.",High_Risk
+"The forestry department uses this program to predict how a massive insect infestation will decimate local timber supplies based on climate data.",High_Risk
+"Manage your city traffic grid with unparalleled precision using an AI that predicts congestion surges and automatically reroutes traffic lights for fire engines.",High_Risk
+"A predictive maintenance algorithm integrated into regional railway networks analyzes acoustic sensor data from train wheels to identify microscopic structural fractures.",High_Risk
+"Our cutting edge AI software scans thousands of high school transcripts and uses predictive modeling to rank applicants for the university admissions committee.",High_Risk
+"SafeRail AI continuously monitors the attention spans and control inputs of train conductors to proactively alert central command and prevent derailments.",High_Risk
+"Insurance companies use this AI to track your pre existing conditions and cross reference them with actuarial life tables to mathematically decide your premium.",High_Risk
+"An algorithmic risk assessment tool utilized by border control agencies classifies incoming travelers into standard or enhanced interrogation queues.",High_Risk
+"The dentist uses a robotic assistant to map out my teeth and take a 3D picture of my mouth so it can tell the dentist exactly what size braces I need.",High_Risk
+"Optimize your human resources department with an AI that analyzes the daily productivity metrics of your warehouse staff to calculate quarterly performance bonuses.",High_Risk
+"An automated biometric surveillance system deployed in regional public transit hubs is programmed exclusively to identify individuals matching an active database of missing children.",High_Risk
+"When the county experiences a severe drought the water management AI autonomously dictates the water pressure distributed to ensure hospitals never lose access.",High_Risk
+"It is a digital tool that federal courts use to analyze massive amounts of financial evidence in corporate fraud cases by scanning thousands of bank statements.",High_Risk
+"My big sisters employer uses an AI matching system to schedule shifts for hospital nurses by balancing legal rest requirements and patient volume predictions.",High_Risk
+"An algorithmic sorting mechanism utilized by federal customs agencies scans and detects illegal narcotics within international shipping containers.",High_Risk
+"Keep your certification exams completely secure with our automated remote proctoring software that uses biometric keystroke dynamics to ensure students are not cheating.",High_Risk
+"This tool helps judges grant bail by assessing the defendants community ties and flight risk to recommend whether they should be held in pre trial detention.",High_Risk
+"Automate your logistics safely with an AI that manages the routing of fleets transporting highly volatile industrial chemicals to strictly avoid residential zones.",High_Risk
+"The big robot at the car factory uses special cameras to watch where my dads hands are so it automatically stops moving its heavy metal arms if he gets too close.",High_Risk
+"An AI driven credentialing system used by the national medical board autonomously verifies the academic degrees of foreign trained surgeons before granting a license.",High_Risk
+"It is a computer program used by the municipal parole board that looks at an inmates past infractions to output a statistical probability of reoffending.",High_Risk
+"Elevate your civic infrastructure with a predictive AI that models the structural fatigue of aging dams to automatically alert municipal engineers to microscopic fractures.",High_Risk
+"This software is used by child protective services to run a predictive model based on domestic disturbance calls to flag high risk households for social worker intervention.",High_Risk
+"My mom is a pilot and her airplane has a backup computer brain that instantly calculates the safest emergency landing trajectory if the plane loses an engine.",High_Risk
+"Optimize your public transit network with an AI that dynamically redraws city bus routes every morning based on real time demographic shifts and predicted commuter density.",High_Risk
+"A critical safety algorithm deployed in underground coal mines continuously monitors air quality sensors to automatically trigger mass evacuation alarms if methane spikes.",High_Risk
+"The government uses this computer program to score essays written by immigrants applying for citizenship by using natural language processing to grade their civic knowledge.",High_Risk
+"An algorithmic tool used by the public defenders office automatically analyzes thousands of past legal precedents to suggest the most robust defense strategy for indigent clients.",High_Risk
+"My dad works on a huge oil rig and the computer watches the pressure valves deep underwater to automatically slam the heavy safety doors shut if it senses a blowout.",High_Risk
+"This diagnostic AI is used by cardiologists to analyze real time echocardiograms and detect minute irregularities in heart valve function that the human eye might miss.",High_Risk
+"The smart traffic cameras use AI to look at license plates and check the numbers against a national database to immediately alert the highway patrol of stolen vehicles.",High_Risk
+"An algorithmic risk scoring system used by the national tax authority analyzes corporate tax returns to flag multinational companies for comprehensive audits.",High_Risk
+"A predictive modeling tool used by the department of agriculture analyzes long term climate data to dictate which specific crops farmers are legally permitted to plant.",High_Risk
+"My big brother is taking his law exam and the computer watches him through the webcam to make sure he does not look at his phone so nobody can cheat.",High_Risk
+"Optimize your hospital bed management with an AI that tracks patient recovery rates to autonomously decide when to discharge stable patients and make room for trauma cases.",High_Risk
+"It is a specialized algorithm used by forensic accountants that reconstructs shredded financial documents to build undeniable evidence of money laundering.",High_Risk
+"The city water grid relies on this AI to autonomously inject the precise mathematical amount of chlorine into the drinking supply to prevent accidental chemical poisoning.",High_Risk
+"A biometric access system deployed at a maximum security prison uses facial geometry to ensure that transferring inmates are correctly identified and safely routed.",High_Risk
+"This AI helps retail banks decide who gets a small business loan by analyzing your credit history and current revenue streams to figure out if you are a safe bet.",High_Risk
+"When my teacher gives me a big spelling test she puts it in a special scanner and the big computer decides if I get a passing grade for the semester.",High_Risk
+"Streamline your workforce reduction with an HR algorithm that objectively analyzes the past five years of performance reviews to generate a list of employees for layoffs.",High_Risk
+"An artificial intelligence system utilized by the state pension fund autonomously executes high frequency trades to manage the retirement assets of public school teachers.",High_Risk
+"It is an automated background check algorithm used by the police department to screen new recruits by scanning their financial history for hidden vulnerabilities.",High_Risk
+"A biometric verification system used by national defense contractors requires employees to use a retinal scan to access classified server rooms containing military schematics.",High_Risk
+"The fire department uses this program to predict how a massive wildfire is going to spread by taking in wind and topographical data to tell dispatchers where to drop water.",High_Risk
+"Say hello to endless digital creativity with our AI tool that lets you generate completely custom royalty free background music for your online video log.",Limited_Risk
+"It is basically a simple chatbot on the electric company website that gives you a quick automated answer based on their standard frequently asked questions page.",Limited_Risk
+"I have a super fun app that changes my face and puts silly puppy dog ears on my head just for making funny pictures to send to my grandmother.",Limited_Risk
+"Deepfake detection software integrated into a digital journalism platform algorithmically analyzes uploaded video files to ascertain if political speeches have been synthetically manipulated.",Limited_Risk
+"Break down language barriers instantly with our live translation app that uses advanced AI to convert spoken Spanish into English audio right on your phone while you travel.",Limited_Risk
+"You know when you are writing an email at work and the software suggests the rest of the sentence in gray text to help you draft professional messages a little faster.",Limited_Risk
+"My favorite video game has a pretend king that uses his robot brain to talk back to me about dragons and knights without ever saying the exact same thing twice.",Limited_Risk
+"An automated conversational agent deployed on an international airline customer service portal is designed exclusively to resolve standard low stakes queries regarding luggage weight.",Limited_Risk
+"Create stunning corporate logos in seconds by typing a brief description of your small business into our generative AI platform that instantly spits out unique brand marks.",Limited_Risk
+"It is a piece of software used by indie movie studios to change the weather in a scene after they already filmed it using synthetic image generation.",Limited_Risk
+"The museum has a magic television that makes a pretend dinosaur look at me and roar when I wave my hands in the air in front of the camera.",Limited_Risk
+"A synthetic data generation framework utilized by software developers creates completely artificial user profiles to enable rigorous load testing of new database architectures.",Limited_Risk
+"Never feel lonely again with our AI virtual companion app that gives you a personalized digital avatar you can text anytime you need to vent about your day.",Limited_Risk
+"The local television station uses this AI to automatically create closed captions for live sports broadcasts by listening to the human announcers and typing their words.",Limited_Risk
+"My mommy uses an app to see what new glasses look like on her face before she buys them by having the computer put the pretend glasses right on her nose.",Limited_Risk
+"An artificial intelligence application processes long form investigative journalism articles and autonomously generates concise bulleted summaries to be used as promotional material.",Limited_Risk
+"Make your self published audiobooks sound amazing with our synthetic voice generator that allows independent authors to convert their written novels into professionally narrated audio files.",Limited_Risk
+"It is a really neat tool on a real estate website that takes the photos of a completely empty room and uses generative AI to digitally add couches and rugs.",Limited_Risk
+"I talk to a robot lady on my daddys phone when we want to order pizza and she uses her computer ears to understand me and send the yummy food to our house.",Limited_Risk
+"An algorithmic system utilizes natural language processing to aggregate and categorize vast quantities of consumer product reviews into distinct thematic clusters like overall durability.",Limited_Risk
+"Protect your privacy online with our AI powered image filter that automatically detects and blurs out sensitive background information like license plates before you post your photos.",Limited_Risk
+"The company uses an AI to make all their boring corporate training videos by simply typing out a script for a completely generated digital human to read on screen.",Limited_Risk
+"I have a magic story app on my tablet that writes a brand new exciting bedtime story just for me every single night when I type in my favorite animal.",Limited_Risk
+"A generative AI model employed by a digital marketing team synthesizes compelling email subject lines that are continuously optimized through machine learning to maximize open rates.",Limited_Risk
+"Generate hyper realistic digital clothing for your online avatars using our AI platform that allows fashion designers to synthesize unique fabric textures and patterns.",Limited_Risk
+"It is a chatbot built into the city tourism website that instantly replies with helpful links and a friendly digital smile when you ask it where to find local pizza.",Limited_Risk
+"My phone has a fun app that looks at a picture of my dog and uses AI to redraw him like he belongs in a comic book so I can print it out.",Limited_Risk
+"An automated deepfake transparency tool used by a video hosting platform scans uploaded comedy sketches and automatically overlays a text warning if it detects a synthetic face.",Limited_Risk
+"Enhance your live streams with our real time AI tool that translates your spoken English into fluent German subtitles during your video broadcasts for a global audience.",Limited_Risk
+"This software helps screenwriters overcome writer block by taking the protagonist basic traits and outputting ten different possible plot twists to help spark the creative process.",Limited_Risk
+"The virtual receptionist at the dental office is an AI avatar on a screen that uses natural language processing to confirm your appointment time when you check in.",Limited_Risk
+"Automate your customer returns with our retail chatbot that handles basic repetitive queries about shipping labels and refund statuses to free up your human support agents.",Limited_Risk
+"Design your dream garden in minutes by typing a prompt into our generative AI that instantly synthesizes beautiful 3D concept art to show your local landscaper.",Limited_Risk
+"It is an app that lets you try on virtual nail polish by pointing your phone camera at your hands while the AI perfectly overlays different colors using augmented reality.",Limited_Risk
+"My little brother has a magic digital coloring book where he tells the computer what to draw and the AI generates a brand new unique black and white outline.",Limited_Risk
+"A synthetic data engine used by university researchers generates thousands of highly realistic but completely fake financial ledgers so students can practice data mining techniques.",Limited_Risk
+"Our AI summarization tool takes a massive legal document and condenses it into three easy to read bullet points highlighting what data you are actually giving away.",Limited_Risk
+"Produce professional grade indie games on a budget with our synthetic voice generator that creates unique distinct voices for hundreds of non player characters.",Limited_Risk
+"This online tool is great for independent musicians who upload a low quality recording of them singing and the generative AI digitally enhances the audio to sound professional.",Limited_Risk
+"I asked the robot on the pizza website if my order was ready yet and it checked the database to tell me my pizza would be at my door in twenty minutes.",Limited_Risk
+"An AI powered sentiment analysis tool used by a small cosmetics brand quickly scans thousands of online comments to gauge whether the overall audience reaction is positive.",Limited_Risk
+"Blur out your messy bedroom with our video conferencing AI that automatically detects your silhouette and synthetically replaces your background with a professional office setting.",Limited_Risk
+"Create custom emojis for your friends with our generative AI that takes a simple text prompt and instantly spits out a unique high quality digital sticker.",Limited_Risk
+"I have a bedtime app that plays relaxing sounds by continuously mixing synthetic rain and thunder noises so the audio loop never repeats and helps me fall asleep.",Limited_Risk
+"An algorithmic writing assistant helps non native English speakers draft professional cover letters by suggesting vocabulary improvements while maintaining the original tone.",Limited_Risk
+"It is just an emotion recognition filter on your phone that detects your expression when you smile really wide and makes virtual confetti fall down the screen.",Limited_Risk
+"Automate your podcast show notes with our AI that listens to your hour long audio file and automatically generates a neat summary complete with timestamps for key topics.",Limited_Risk
+"My grandma uses a virtual stylist app that looks at pictures of the clothes in her closet and suggests cute outfit combinations she had not thought of before.",Limited_Risk
+"A synthetic environment generator used by an architecture firm quickly renders realistic lighting and passing clouds around their 3D building models for client presentations.",Limited_Risk
+"It is a really neat tool on a real estate website that takes the photos of a completely empty room and uses generative AI to digitally add furniture.",Limited_Risk
+"An algorithmic system utilizes natural language processing to aggregate and categorize vast quantities of employee feedback surveys into distinct thematic clusters.",Limited_Risk
+"A generative AI model employed by a local bakery synthesizes appetizing descriptions of their daily pastries to make the social media captions more engaging for their followers.",Limited_Risk
+"Make your indie documentary sound amazing with our synthetic voice generator that allows amateur filmmakers to create professional sounding voiceovers for their nature videos.",Limited_Risk
+"I talk to a robot lady on my smart speaker when I want to hear a joke and she uses her computer brain to invent a silly tale about a chicken.",Limited_Risk
+"The children hospital has a magic television in the waiting room that uses a camera to copy my smile and make a cartoon bear mimic my facial expressions.",Limited_Risk
+"Never struggle to write a speech again by feeding your main talking points into our AI public speaking app that drafts a polished engaging presentation.",Limited_Risk
+"The marketing team uses an AI to draft their weekly email newsletters by inputting the weekly sales metrics so the AI generates a cheerful pre formatted draft.",Limited_Risk
+"I have a magic music app on my tablet that turns the squiggly lines I draw on the screen into a funny unique melody that I can save and play back.",Limited_Risk
+"It is a piece of software used by amateur photographers to digitally remove tourists from their vacation photos using basic synthetic image generation to make monuments look empty.",Limited_Risk
+"Protect your digital identity with our AI powered avatar generator that takes your selfie and creates a stylized cartoonish version of your face for public gaming forums.",Limited_Risk
+"My favorite museum app has a pretend astronaut that uses his robot brain to talk back to me about zero gravity when I type questions to him.",Limited_Risk
+"Say hello to endless digital creativity with our AI tool that lets you generate completely custom royalty free sound effects for your podcast by selecting a simple category.",Limited_Risk
+"Break down language barriers instantly with our live translation app that converts spoken Japanese into English audio while displaying a clear watermark notifying users of the AI.",Limited_Risk
+"Deepfake detection software integrated into a university journalism program algorithmically analyzes uploaded video files to teach students how to ascertain if historical speeches are synthetically manipulated.",Limited_Risk
+"Create stunning social media graphics in seconds by typing a brief description into our generative AI platform that instantly spits out beautiful unique promotional flyers.",Limited_Risk
+"An artificial intelligence algorithm embedded within a consumer smartphone camera autonomously identifies barcode structures to quickly scan digital codes for restaurant menus.",Minimal_Risk
+"Banish messy formatting forever with our advanced document analyzer that integrates directly into your word processor to automatically align margins and standardize bullet points as you type.",Minimal_Risk
+"It is literally just the standard spam filter in your personal email inbox that looks at incoming messages and throws unsolicited advertisements straight into the promotional folder.",Minimal_Risk
+"My robot lawnmower drives around the backyard cutting the grass and uses a boundary wire buried in the dirt so it knows exactly where the edge of the lawn is.",Minimal_Risk
+"Algorithmic inventory forecasting software utilized by a local independent bookstore correlates historical sales data with the academic calendar to predict optimal restocking volumes for university textbooks.",Minimal_Risk
+"Find your next favorite podcast instantly with our audio platform that uses a basic AI recommendation engine to analyze your listening history and serve up the perfect shows.",Minimal_Risk
+"You know when you search for how to fix a leaky faucet and the search engine uses AI to rapidly rank millions of websites to show you the most relevant tutorials.",Minimal_Risk
+"When I play my virtual tennis game the opponent on the screen is controlled by the computer and it is just code reacting to where I swing my digital racket.",Minimal_Risk
+"A meteorological analysis tool leverages basic weather station data to provide localized hourly temperature predictions for a neighborhood community gardening application.",Minimal_Risk
+"Never get lost on a hike again with our AI trail planner that calculates the optimal path through the park by dynamically adjusting the estimated completion time based on your speed.",Minimal_Risk
+"It is a smart thermostat installed in your apartment that learns you like the air conditioning turned off when you go to work and automatically adjusts the ambient temperature.",Minimal_Risk
+"My daddy has a photo editing app that magically straightens the horizon when he takes a crooked picture of the ocean by finding the line of the water and rotating the image.",Minimal_Risk
+"A computer vision application deployed in a local recycling center continuously monitors a slow moving conveyor belt to passively count the total number of glass bottles processed.",Minimal_Risk
+"Block out the annoying hum of the refrigerator with our basic desktop software that uses an integrated algorithm to listen to your microphone input and instantly filter out background static.",Minimal_Risk
+"The sleep tracking app on your phone uses a very simple algorithmic model to analyze the ambient audio of your breathing and estimate how many hours of deep sleep you got.",Minimal_Risk
+"We have a smart pet feeder in the kitchen that uses a basic timer and weight sensor AI to dispense exactly half a cup of kibble for the cat every morning.",Minimal_Risk
+"An algorithmic tool mathematically optimizes the digital compression of image files to significantly reduce required hard drive storage capacity without introducing visual quality degradation.",Minimal_Risk
+"Just tell our AI mixology app what liquors are currently sitting in your cabinet and it instantly whips up a custom recipe and step by step mixing instructions.",Minimal_Risk
+"It is a feature in a popular typing practice app that measures your keystroke speed and accuracy as you type a paragraph to display your words per minute score on the screen.",Minimal_Risk
+"My mom has a magic photo search bar on her phone where she can type the word beach and the AI automatically scans her camera roll to pull up photos of the ocean.",Minimal_Risk
+"A predictive auto fill function embedded within a web browser analyzes the specific fields on a shipping form to automatically suggest your saved home address and zip code.",Minimal_Risk
+"Level up your puzzle game with our mobile app that highlights your obvious mistakes in red ink and provides a simple algorithmic hint for the next logical number placement.",Minimal_Risk
+"It is just an automated playlist generator on your classical music app that looks at the symphonies you have been listening to lately to create a custom study mix.",Minimal_Risk
+"The smart alarm clock on my nightstand uses a tiny computer to slowly turn on a simulated sunrise light thirty minutes before my alarm goes off to wake me up gently.",Minimal_Risk
+"An artificial intelligence tool utilized by amateur coin collectors automatically categorizes images of coins into distinct folders based on the basic geometric shape and the stamped year.",Minimal_Risk
+"Optimize your baking with our smart oven that uses a simple computer vision algorithm to look at your chocolate chip cookies and automatically turns off the heat when they are golden brown.",Minimal_Risk
+"It is an app that helps you tune your acoustic guitar by listening to the sound of the string and using a basic algorithmic calculation to tell you if the note is too sharp.",Minimal_Risk
+"My cat has a smart laser toy with a little computer inside that randomizes the movement of the red dot across the living room floor so she never gets bored.",Minimal_Risk
+"A simple algorithmic sorting feature in your digital file manager automatically organizes all your downloaded documents by date and file size when you click one button.",Minimal_Risk
+"Find the perfect color palette with our design AI that analyzes a photograph of a beautiful sunset and automatically extracts the five dominant colors so you can use them.",Minimal_Risk
+"You know when you buy a book online and the website uses a basic collaborative filtering algorithm matching common purchasing patterns to suggest more books you might like.",Minimal_Risk
+"When I play chess against the computer on easy mode the AI intentionally limits its search depth and plays simple predictable moves so I have a fair chance of winning.",Minimal_Risk
+"A smart humidifier for your bedroom uses a basic algorithmic sensor to measure the moisture in the air and automatically turns on if the humidity drops below forty percent.",Minimal_Risk
+"Never forget a grocery item with our smart shopping list app that learns you usually buy milk on Tuesdays and sends you a gentle automated reminder if you walk past the dairy aisle.",Minimal_Risk
+"It is a digital compass app on your smartwatch that uses basic algorithmic processing of the internal magnetometer to always point a digital arrow towards true north.",Minimal_Risk
+"My daddys golf app acts like a digital caddie by taking the wind speed and the distance to the hole to suggest whether he should use his seven iron or his pitching wedge.",Minimal_Risk
+"A computer vision tool used by a local bakery constantly monitors the display case and sends a simple ping to the bakers phone when it sees that they are sold out of muffins.",Minimal_Risk
+"Clean up your contacts list instantly with our mobile app that uses a basic matching algorithm to find duplicate phone numbers and merge them into single organized profiles.",Minimal_Risk
+"The smart blinds in the living room are connected to a sun sensor and an algorithm automatically lowers them halfway during the hottest part of the afternoon to keep the house cool.",Minimal_Risk
+"We have a robotic pool skimmer that drives around the surface of the water using a simple randomized algorithmic path to collect leaves before they sink to the bottom.",Minimal_Risk
+"An algorithmic tool mathematically optimizes the loading speed of your personal blog by automatically resizing large image files so your website visitors do not have to wait.",Minimal_Risk
+"Just ask our sommelier AI app what wine pairs with salmon and it uses a simple lookup algorithm database to suggest the perfect bottle based on your dinner.",Minimal_Risk
+"It is a feature in a digital drawing tablet that instantly smooths out the wobbly line you sketch with your stylus to make it mathematically perfectly round.",Minimal_Risk
+"My mom uses a smart plant pot for her orchids where a basic algorithm monitors the soil moisture and flashes a green light when it is the optimal time to add water.",Minimal_Risk
+"A predictive caching function within your video streaming app analyzes your watch habits and algorithmically pre loads the first five minutes of your favorite sitcom so it plays instantly.",Minimal_Risk
+"Level up your vocabulary with our daily crossword app that uses a simple AI to generate entirely new customized mini puzzles every single morning based on a random dictionary seed.",Minimal_Risk
+"It is an automated background equalizer on your music player that analyzes the acoustic properties of the song and algorithmically boosts the bass slightly when you use cheap earbuds.",Minimal_Risk
+"The smart toaster in our kitchen uses a basic algorithmic heat sensor to ensure your bagel is toasted to the exact crunchiness level you selected on the dial every single time.",Minimal_Risk
+"An artificial intelligence tool utilized by a local tailor uses a basic algorithm to calculate the exact yardage of fabric required for a custom suit based on your chest and waist measurements.",Minimal_Risk
+"My fitness watch uses a basic pedometer algorithm to estimate how many calories I burned during my morning walk based purely on my heart rate and arm swing.",Minimal_Risk
+"An automated feature in your digital calendar scans your incoming emails for flight confirmation numbers and uses a simple algorithm to automatically block out your travel dates.",Minimal_Risk
+"The smart air purifier in my office uses a basic particulate sensor and an algorithm to automatically increase the fan speed when it detects too much dust in the room.",Minimal_Risk
+"It is a simple algorithm in my e reader that estimates how many minutes it will take me to finish the chapter based on my average reading speed.",Minimal_Risk
+"My digital bathroom scale connects to my phone and uses a basic algorithm to display a simple line graph showing my weight fluctuations over the last thirty days.",Minimal_Risk
+"A smart battery management algorithm on my laptop automatically dims the screen brightness when the power drops below twenty percent to help the battery last a little longer.",Minimal_Risk
+"It is a digital metronome app for musicians that uses a highly precise timekeeping algorithm to play a perfect clicking sound at exactly one hundred and twenty beats per minute.",Minimal_Risk
+"The smart kettle in the kitchen uses an algorithmic temperature sensor to automatically shut off the boiling element the exact second the water reaches two hundred and twelve degrees.",Minimal_Risk
+"My cars basic cruise control uses a simple algorithm to monitor the speedometer and automatically adjust the throttle to maintain a constant speed of sixty miles per hour on the highway.",Minimal_Risk
+"A digital recipe converter app uses a basic mathematical algorithm to instantly translate three cups of flour into the exact equivalent measurement in metric grams for baking.",Minimal_Risk
+"It is a simple tool on the weather website that takes the current temperature and the wind speed to algorithmically calculate what the wind chill factor feels like outside.",Minimal_Risk
+"The smart power strip under my desk uses a basic algorithm to detect when my computer goes to sleep and automatically cuts the phantom power to my connected desk lamp.",Minimal_Risk
+"My running app uses GPS coordinates and a basic algorithm to draw a digital map of my jogging route and calculate my average pace per mile.",Minimal_Risk
+"It is a simple noise gate algorithm used by podcasters that automatically mutes the microphone channel whenever the speaker stops talking to eliminate background room tone.",Minimal_Risk
+"A basic algorithmic tool on my smartphone camera analyzes the ambient light sensor and automatically suggests whether I should turn on the flash before taking a picture in a dark room.",Minimal_Risk
+"My smart coffee mug uses a tiny battery and a basic heat sensor algorithm to keep my morning coffee at exactly one hundred and thirty five degrees until I finish drinking it.",Minimal_Risk
