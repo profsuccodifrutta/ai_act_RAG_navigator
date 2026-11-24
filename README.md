@@ -6,15 +6,13 @@ You describe your AI product and ask a compliance question. The system first cla
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/profsuccodifrutta/ai_act_RAG_navigator/blob/main/NaN_project.ipynb)
 
-Live demo: [AI Act Advisor on Hugging Face Spaces](https://huggingface.co/spaces/profsuccofrutta/ai-act-advisor). You'll need your own Hugging Face token to use it (see [Using the live demo](#using-the-live-demo)).
+Live demo: [AI Act Advisor on Hugging Face Spaces](https://huggingface.co/spaces/profsuccofrutta/ai-act-advisor) (requires a Hugging Face access token, see [Using the live demo](#using-the-live-demo)).
 
 Built as the project for the Data Visualization and Text Mining course in the MSc in Data Science.
 
 ## Why
 
-General-purpose LLMs sound sure of themselves on the AI Act and still get basic things wrong. In our tests a plain LLM labelled workplace emotion recognition as high-risk and walked through compliance steps for it, even though the Act prohibits it outright. It told the owner of an e-commerce FAQ chatbot (limited risk) that they needed a quality management system and technical documentation. It also claimed the Act does not require CE marking for high-risk systems, which contradicts Article 48.
-
-Running the classifier first and limiting the model to retrieved legal text gave the right answer in all three cases.
+General-purpose LLMs aren't aligned with regulatory frameworks. On the AI Act they can sound confident and still misread the risk tier or invent obligations, which makes them unreliable for compliance work. We built this system to keep the model inside the actual text of the regulation. A classifier works out which rules apply, retrieval narrows the context to the relevant provisions, and every answer points back to the articles it relies on.
 
 ## How it works
 
@@ -35,23 +33,19 @@ Running the classifier first and limiting the model to retrieved legal text gave
 
 ### 1. Parsing the regulation
 
-`parse_ai_act_robust()` reads `ai_act_2024.pdf` with PyMuPDF and turns it into clean legal units. It strips page headers, ELI references, page numbers, line-break hyphenation and footnotes, then tags each page as RECITAL, ARTICLE or ANNEX. Text is split only at real structural headings, so an inline mention of "Article 99" does not start a new unit.
+The AI Act PDF is cleaned of headers, footnotes and page noise, then split into recitals, articles and annexes.
 
 ### 2. Chunking and metadata enrichment
 
-Units are cut with `RecursiveCharacterTextSplitter` into chunks of up to 1500 characters with a 200-character overlap. Each chunk starts with its legal identifier (for example `[ARTICLE 10] ...`) so the reference is still there after retrieval.
-
-A spaCy `en_core_web_sm` pipeline with a custom EntityRuler, placed before the statistical NER, tags domain entities: `LEGAL_ROLE` (provider, deployer, ...), `RISK_LEVEL`, `ORG`, `CONCEPT` and `DOCUMENT`. We refined the rules over several rounds of error analysis, inspecting samples with displaCy each time.
-
-Chunks shorter than 100 characters are dropped, which takes the count from 577 to 570. The result is saved to `data/polished_chunks.json`.
+Each legal unit is split into overlapping chunks tagged with its article or annex reference. A spaCy pipeline with custom rules adds entities such as legal roles and risk levels as metadata.
 
 ### 3. Exploratory analysis
 
-Plotly charts show unit and chunk length distributions, counts per category, entity type frequencies, and a TF-IDF ranking of terms across the corpus.
+Charts of chunk lengths, category counts, entity frequencies and TF-IDF terms check that the parsing went as expected.
 
 ### 4. Embeddings and vector store
 
-Chunks are embedded with BAAI/bge-m3 using normalized vectors, which turns cosine similarity into an inner product. The model is multilingual, so a user can ask in their own language and still hit the English text. Vectors are stored in a FAISS index under `ai_act_rag_index/`.
+Chunks are embedded with the multilingual BGE-M3 model and stored in a FAISS index.
 
 ### 5. Retrieval
 
@@ -110,18 +104,12 @@ The notebook ends with three case studies. Each one is also run through the same
 | `ai_risk_dataset2.csv.txt` | Synthetic training set for the risk classifier (`text`, `label`) |
 | `pyproject.toml`, `uv.lock` | Dependencies, managed with `uv` |
 | `assets/loss_curves.png` | Loss curves shown above |
-| `.github/workflows/security.yml` | Weekly security check (see [Security](#security)) |
 
 Running the notebook also creates these files, which are not committed: `data/polished_chunks.json`, `ai_act_rag_index/`, `distilBERT_classifier/`, `legalBERT_classifier/`, `ulmfit_ai_risk_classifier.pkl`, and the GloVe files.
 
 ## Using the live demo
 
-The Space has no token of its own. Every answer is generated on the visitor's Hugging Face account, so you pay for (or use the free credits of) your own requests.
-
-1. Create a fine-grained token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) with only the "Make calls to Inference Providers" permission.
-2. Paste it into the "Your Hugging Face Access Token" field in the app.
-
-The token is used for that one request. The app doesn't store it, log it, or show it in error messages. Requests without a token are rejected before any work runs.
+The app generates answers through the Hugging Face Inference API, so it asks for your own access token. Create one at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) (the "Make calls to Inference Providers" permission is enough) and paste it into the token field. The token is only used for your request and is never stored.
 
 ## Running the notebook
 
@@ -138,19 +126,6 @@ You can run it locally too, but you'll have to remove the `google.colab` imports
 The classifier is trained on synthetic data. Real product descriptions tend to be vaguer, and labels written by an LLM may be wrong on borderline legal cases. Generation is evaluated qualitatively on three case studies, not on a benchmark. Gemma-2-2B is a small model, so its answers stay grounded but can be shallow.
 
 This is a course project and not legal advice.
-
-## Security
-
-No credentials are kept in this repository or in the Space. The notebook reads its Hugging Face token from Colab Secrets, and the Space uses each visitor's token.
-
-A GitHub Actions workflow ([security.yml](.github/workflows/security.yml)) runs on every push and every Monday. It checks four things:
-
-- the full git history of this repo has no leaked secrets (gitleaks);
-- the full git history of the Space has none either;
-- the Space code never reads a token from its environment, so it can't spend the owner's credits;
-- the Space runs on the free `cpu-basic` hardware.
-
-If a check fails, GitHub emails the repo owner. Findings show up as annotations on the run's summary page, with the secret itself redacted. [.gitleaks.toml](.gitleaks.toml) whitelists two notebook metadata fields that look like keys but aren't: Colab's `authorship_tag` and Jupyter widget IDs.
 
 ## Tech stack
 
