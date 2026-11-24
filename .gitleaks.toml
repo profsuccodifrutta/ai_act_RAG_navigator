@@ -1,0 +1,13 @@
+# Default gitleaks rules, minus two kinds of false positive found in Jupyter/Colab notebooks.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Notebook metadata that is not a credential"
+regexTarget = "line"
+regexes = [
+  # Colab's "authorship_tag" field: notebook metadata, grants no access.
+  '''"authorship_tag": "[^"]*"''',
+  # ipywidgets model IDs: a bare 32-char hex string on its own line, as a key or list item.
+  '''^\s*"[0-9a-f]{32}"\s*[,:]?\s*\{?\s*$''',
+]

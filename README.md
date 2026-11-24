@@ -150,7 +150,7 @@ A GitHub Actions workflow ([security.yml](.github/workflows/security.yml)) runs 
 - the Space code never reads a token from its environment, so it can't spend the owner's credits;
 - the Space runs on the free `cpu-basic` hardware.
 
-If a check fails, GitHub emails the repo owner.
+If a check fails, GitHub emails the repo owner. Findings show up as annotations on the run's summary page, with the secret itself redacted. [.gitleaks.toml](.gitleaks.toml) whitelists two notebook metadata fields that look like keys but aren't: Colab's `authorship_tag` and Jupyter widget IDs.
 
 ## Tech stack
 
