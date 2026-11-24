@@ -25,16 +25,24 @@ jobs:
       - name: Install gitleaks
         run: curl -sSL https://github.com/gitleaks/gitleaks/releases/download/v8.18.4/gitleaks_8.18.4_linux_x64.tar.gz | tar -xz gitleaks
 
+      # Findings are also printed as annotations (secret redacted) so they show on the run's summary page.
       - name: No secrets in this repo (full history)
-        run: ./gitleaks detect --source . --redact --no-banner -v
+        run: |
+          ./gitleaks detect --source . --redact --no-banner --report-format json --report-path repo.json || {
+            jq -r '.[] | "::error file=\(.File),line=\(.StartLine)::\(.RuleID) in commit \(.Commit[0:7])"' repo.json; exit 1; }
 
       - name: Clone the Space
+        if: always()
         run: git clone --quiet "https://huggingface.co/spaces/$SPACE" space
 
       - name: No secrets in the Space (full history)
-        run: ./gitleaks detect --source space --redact --no-banner -v
+        if: always()
+        run: |
+          ./gitleaks detect --source space --redact --no-banner --report-format json --report-path space.json || {
+            jq -r '.[] | "::error file=space/\(.File),line=\(.StartLine)::\(.RuleID) in Space commit \(.Commit[0:7])"' space.json; exit 1; }
 
       - name: Space never uses a server-side token (visitors must bring their own)
+        if: always()
         run: |
           if grep -rnE "os\.environ|getenv|load_dotenv|HF_TOKEN|HUGGINGFACEHUB_API_TOKEN" space --include='*.py'; then
             echo "::error::The Space reads credentials from its environment, so visitors could spend your credits."
@@ -42,6 +50,7 @@ jobs:
           fi
 
       - name: Space runs on free hardware
+        if: always()
         run: |
           hw=$(curl -s "https://huggingface.co/api/spaces/$SPACE" | jq -r '.runtime.hardware.requested')
           echo "Requested hardware: $hw"
