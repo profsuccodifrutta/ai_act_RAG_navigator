@@ -1,0 +1,51 @@
+# Weekly security check for this repo and the public Hugging Face Space.
+# GitHub emails the repo owner when a scheduled run fails.
+name: Security checks
+
+on:
+  push:
+  schedule:
+    - cron: "0 7 * * 1" # every Monday, 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SPACE: profsuccofrutta/ai-act-advisor
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install gitleaks
+        run: curl -sSL https://github.com/gitleaks/gitleaks/releases/download/v8.18.4/gitleaks_8.18.4_linux_x64.tar.gz | tar -xz gitleaks
+
+      - name: No secrets in this repo (full history)
+        run: ./gitleaks detect --source . --redact --no-banner -v
+
+      - name: Clone the Space
+        run: git clone --quiet "https://huggingface.co/spaces/$SPACE" space
+
+      - name: No secrets in the Space (full history)
+        run: ./gitleaks detect --source space --redact --no-banner -v
+
+      - name: Space never uses a server-side token (visitors must bring their own)
+        run: |
+          if grep -rnE "os\.environ|getenv|load_dotenv|HF_TOKEN|HUGGINGFACEHUB_API_TOKEN" space --include='*.py'; then
+            echo "::error::The Space reads credentials from its environment, so visitors could spend your credits."
+            exit 1
+          fi
+
+      - name: Space runs on free hardware
+        run: |
+          hw=$(curl -s "https://huggingface.co/api/spaces/$SPACE" | jq -r '.runtime.hardware.requested')
+          echo "Requested hardware: $hw"
+          if [ "$hw" != "cpu-basic" ] && [ "$hw" != "null" ]; then # null = paused
+            echo "::error::The Space requests '$hw', which is paid hardware."
+            exit 1
+          fi

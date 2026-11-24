@@ -6,7 +6,7 @@ You describe your AI product and ask a compliance question. The system first cla
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/profsuccodifrutta/ai_act_RAG_navigator/blob/main/NaN_project.ipynb)
 
-Live demo: [AI Act Advisor on Hugging Face Spaces](https://huggingface.co/spaces/profsuccofrutta/ai-act-advisor)
+Live demo: [AI Act Advisor on Hugging Face Spaces](https://huggingface.co/spaces/profsuccofrutta/ai-act-advisor). You'll need your own Hugging Face token to use it (see [Using the live demo](#using-the-live-demo)).
 
 Built as the project for the Data Visualization and Text Mining course in the MSc in Data Science.
 
@@ -81,6 +81,10 @@ The classifier is trained on a synthetic dataset generated with Gemini (`ai_risk
 
 The no-information rate is 25.51%. DistilBERT matches Legal-BERT with about 60% of the parameters, so the pipeline uses DistilBERT.
 
+![Training and validation loss per epoch for DistilBERT, Legal-BERT, ULMFiT and BiGRU](assets/loss_curves.png)
+
+Both BERT models converge within three epochs. After that, training loss keeps falling toward zero while validation loss levels off around 0.1 (DistilBERT) and 0.05 (Legal-BERT). The ULMFiT curve covers the six epochs of gradual unfreezing, and its validation loss stops improving at about 0.57. The BiGRU learns slowly: after ten epochs its validation loss is still 0.77. The curves come from the training logs saved in the notebook, so no model was retrained to draw them.
+
 ### 7. Generation
 
 Answers come from google/gemma-2-2b-it, run locally through a Hugging Face pipeline with temperature 0.1 and up to 512 new tokens. `build_super_prompt()` writes the user's risk tier and role into the system instructions, tells the model to use only the retrieved context, and requires article citations.
@@ -105,10 +109,21 @@ The notebook ends with three case studies. Each one is also run through the same
 | `ai_act_2024.pdf` | Official text of the EU AI Act (Regulation 2024/1689) |
 | `ai_risk_dataset2.csv.txt` | Synthetic training set for the risk classifier (`text`, `label`) |
 | `pyproject.toml`, `uv.lock` | Dependencies, managed with `uv` |
+| `assets/loss_curves.png` | Loss curves shown above |
+| `.github/workflows/security.yml` | Weekly security check (see [Security](#security)) |
 
 Running the notebook also creates these files, which are not committed: `data/polished_chunks.json`, `ai_act_rag_index/`, `distilBERT_classifier/`, `legalBERT_classifier/`, `ulmfit_ai_risk_classifier.pkl`, and the GloVe files.
 
-## Running it
+## Using the live demo
+
+The Space has no token of its own. Every answer is generated on the visitor's Hugging Face account, so you pay for (or use the free credits of) your own requests.
+
+1. Create a fine-grained token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) with only the "Make calls to Inference Providers" permission.
+2. Paste it into the "Your Hugging Face Access Token" field in the app.
+
+The token is used for that one request. The app doesn't store it, log it, or show it in error messages. Requests without a token are rejected before any work runs.
+
+## Running the notebook
 
 The notebook targets Google Colab with a GPU runtime, since embedding and fine-tuning use CUDA.
 
@@ -123,6 +138,19 @@ You can run it locally too, but you'll have to remove the `google.colab` imports
 The classifier is trained on synthetic data. Real product descriptions tend to be vaguer, and labels written by an LLM may be wrong on borderline legal cases. Generation is evaluated qualitatively on three case studies, not on a benchmark. Gemma-2-2B is a small model, so its answers stay grounded but can be shallow.
 
 This is a course project and not legal advice.
+
+## Security
+
+No credentials are kept in this repository or in the Space. The notebook reads its Hugging Face token from Colab Secrets, and the Space uses each visitor's token.
+
+A GitHub Actions workflow ([security.yml](.github/workflows/security.yml)) runs on every push and every Monday. It checks four things:
+
+- the full git history of this repo has no leaked secrets (gitleaks);
+- the full git history of the Space has none either;
+- the Space code never reads a token from its environment, so it can't spend the owner's credits;
+- the Space runs on the free `cpu-basic` hardware.
+
+If a check fails, GitHub emails the repo owner.
 
 ## Tech stack
 
